@@ -1,0 +1,158 @@
+body{
+	background-color: #ce2543;
+	background-size: cover;
+	font-family: 'Roboto';
+}
+
+#prevpic{
+	height: 200px;
+	width: 200px;
+}
+
+.error {
+color: red;
+}
+
+.sidenav{
+height: 58%;
+width: 13%;
+position: fixed;
+z-index: 1;
+top: 50px;
+left: 50px;
+background-color: #ffffff;
+overflow-x: hidden;
+padding-top: 20px;
+box-shadow:0 5px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+border-radius: 30px
+}
+
+.sidenav a{
+padding: 0px 00px 0px 40px;
+text-decoration: none;
+color: black;
+display: block;
+}
+
+#profpic{
+	height: 150px;
+	width: 150px;
+	border-radius: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main{
+  margin-left: 22%;
+  margin-right: 10%;
+}
+
+#postcard{
+	background-color: white;
+	margin: 0px 30px 0px 30px;
+	padding: 10px;
+}
+
+#banner {
+	height: 200px;
+	background-color: #ffffff;
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  	margin-top: 50px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+#create {
+	height: 200px;
+	background-color: #ffffff;
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#posts{
+	height: auto;
+	background-color: #ffffff;
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-bottom: 24%;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+#vote{
+	background-image: url('photos/upvote.png');
+    border: none;
+	border-radius: 100%;
+	background-size: cover;
+	width:30px; height:30px;
+}
+
+#vote2{
+	background-image: url('photos/downvote.png');
+    border: none;
+	border-radius: 100%;
+	background-size: cover;
+	width:30px; height:30px;
+}
+
+#del{
+	background-color: #ffffff;
+	background-image: url('photos/trash.png');
+    border: none;
+	background-size: cover;
+	width:27px; height:27px;
+	margin-bottom: 2px;
+}
+
+#edit{
+	background-color: #ffffff;
+	background-image: url('photos/edit.png');
+    border: none;
+	background-size: cover;
+	width:30px; height:30px;
+}
+
+#dp{
+	width:40px; height:40px;
+	border: none;
+	border-radius: 100%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 12px;}
+}
+
+.carousel {
+	background-color: #ffffff;
+	width:25%;
+	height:auto;
+	margin-top: 80px;
+	margin-left: 25%;
+	border-radius: 55px 55px 55px 55px;
+	overflow: hidden;
+	box-shadow:0 50px 50px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+
+}
+
+#insig{
+	background-image: url("photos/bg1.jpg");
+}
+
+#setting{
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+
+a:hover{
+	color: #ce2543;
+}
+
+a:active{
+	color: #ce2543;
+}
+/* ._. */
